@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package logfileserver;
+
+option java_package = "com.example.protobuf";
+option java_outer_classname = "UserProtos";
+
+
+message User {
+    int32 id = 1;
+    string name = 2;
+}
